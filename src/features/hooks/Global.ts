@@ -8,8 +8,8 @@ interface useGlobalActionType {
 }
 
 export const useGlobalAction = (): useGlobalActionType => {
-  const [modal, setModal] = useRecoilState<Modal>(modalState)
-  const [menu, setMenu] = useRecoilState<Menu>(menuState)
+  const [, setModal] = useRecoilState<Modal>(modalState)
+  const [, setMenu] = useRecoilState<Menu>(menuState)
 
   const updateMenu = (menuOpenId: number): void => {
     setMenu({ menuOpenId })
