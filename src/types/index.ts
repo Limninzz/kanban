@@ -9,3 +9,13 @@ export interface CSSProperties {
     dueDate: string
     progressOrder: number
   }
+
+  export interface Modal {
+    isOpen: boolean
+    type: string
+    defaultProgress: number
+    task: Task
+  }
+  export interface Menu {
+    menuOpenId: number
+  }
