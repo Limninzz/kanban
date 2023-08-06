@@ -1,5 +1,7 @@
 export const AtomKeys = {
     TASKS: 'tasks',
+    MODAL: 'modal',
+    MENU: 'menu',
   }
   
   export const SelectorKeys = {
